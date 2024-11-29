@@ -1,0 +1,239 @@
+html{
+      font-size: 16px;
+}
+
+body {
+      background: black;
+      border: 2px solid white;
+      margin: 2%;
+      border-radius: 10px;
+}
+
+h1 {
+      font-family: "Permanent Marker", cursive;
+      font-weight: bold;
+      text-align: center;
+      color: #4169E1;
+      margin: auto;
+      font-size: 350%;
+      text-shadow: 2px 2px 4px white; /* Efecto de sombra */
+}
+
+.centrar {
+      justify-content: center;
+      align-items: center;
+      margin-left: 500px;
+      margin-top: 2%;
+      border-radius: 8px;
+}
+
+.nav-tabs {
+      list-style-type: none;
+      margin: auto;
+      padding: 1px;
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      border-width: 3px inset white;
+}
+
+.nav-item {
+      margin: auto;
+}
+
+.nav-link {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 150%;
+      color: white;
+}
+
+h3 {
+      font-family: "Permanent Marker", cursive;
+      font-size: 200%;
+      color: #4169E1;
+      text-shadow: 2px 2px 4px white;
+      text-align: center;
+      font-weight: bold;
+      border: 3px inset #4169E1;
+      box-shadow: 0 0 20px white;
+      padding: 1%;
+      border-radius: 10px;
+      margin-left: 3%;
+      margin-right: 3%;
+}
+
+p {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 130%;
+      background-color: blackS;
+      color: white;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: justify;
+}
+
+.row {
+      margin: 2%;
+      
+}      
+
+.foto {
+      width: 20rem; 
+      height: 30rem; 
+      border-radius: 50%;
+      margin-left: 20%;
+
+}
+
+.card-body {
+      background-color: black;
+      border: 3px inset #4169E1;
+      box-shadow: 0 0 30px 0 #4169E1;
+      padding: 1% 0.5%;
+      border-radius: 10%;
+      height: 35rem;
+      width: 28rem;
+      margin: auto;
+}
+
+.card-img-top {
+      margin-left: 2%;
+      margin-top: 4%;
+      border-radius: 10%;
+      padding: 1%;
+      width: 95%;
+      height: 45%;
+}
+
+.card-title {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: black;
+      font-size: 150%;
+      font-weight: bolder;
+      font-style: italic;
+      text-align: center;
+      color: #4169E1;
+}
+
+.card-text {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 120%;
+      font-weight: bold;
+      text-align: justify;
+      color: white;
+      background-color: black;
+}
+
+#botoncolor {
+      background-color: #4169E1;
+      /* Cambia el color de fondo */
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 100%;
+      font-weight: bold;
+      color: white;
+      /* Cambia el color del texto */
+      transition: background-color 0.3s;
+      /* Añade una transición */
+      border: 0px;
+      border-radius: 8px;
+      padding: 1%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 3%;
+      margin-right: 3%;
+}
+
+.container {
+      display: grid;
+      grid-template-columns: 60% 60%;
+      align-items: center;
+      margin-left: 5%; margin-right: 5%;
+}
+
+.listado {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 110%;
+      font-weight: bold;
+      color: white;
+      text-align: justify;
+}
+
+form {
+      background-color: transparent;
+      padding: 1% 2%;
+      max-width: 60%;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 16px;
+      box-shadow: 0px 0px 55px #4169E1;
+      border-radius: 10px;
+      margin: auto;
+}
+
+input, textarea {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 1.5% 2.5%;
+      border: none;
+      border: 1px solid #4169E1;
+      box-shadow: 0px 0px 15px white;
+      background-color: transparent;
+      border-radius: 4px;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 120%;
+}
+
+label {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 100%;
+      color: white;
+      line-height: 2.1;
+}
+
+fieldset{
+      margin: 5% 0;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 120%;
+      color: white;
+      font-weight: bold;
+}
+
+#exampleEmail{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 120%; 
+      padding: 6px 8px;
+}
+
+footer {  
+      background-color: white;  
+      text-align: center;  
+      padding: 2% 0;        
+  }  
+
+  .textoFooter{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 100%;
+      color: black;
+      font-weight: bold;
+  }
+  
+  .footer-content {  
+      display: flex;  
+      justify-content: center;  
+      gap: 10%; /* Espaciado entre iconos */  
+  }  
+  
+  .social-icon {  
+      width: 5%; /* Ajusta el tamaño de los iconos */  
+      height: auto;  
+      padding: 0.5% 0.5%;
+  }  
+
+  
+  @media (max-width: 600px) {  
+      .social-icon {  
+          width: 30px; /* Tamaño de iconos para pantallas pequeñas */  
+      }  
+  }  
+

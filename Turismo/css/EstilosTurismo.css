@@ -1,0 +1,173 @@
+html {
+        font-size: 16px;
+}
+
+body {
+        background: #023E73;
+        border-color: #591902;
+        margin: 2%;
+}
+
+h1 {
+        font-family: "Diplomata", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #F27405;
+        text-align: center;
+        border: 4px inset #F2AA6B;
+        border-radius: 20px;
+        padding: 1%;
+}
+
+h2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 300%;
+        font-weight: bold;
+        font-style: normal;
+        color: #F2AA6B;
+        text-align: center;
+        border-style: 3px inset #F2AA6B;
+}
+
+h3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 150%;
+        font-weight: bold;
+        color: #F2AA6B;
+        text-align: center;
+}
+
+p {
+        font-family: 'Times New Roman';
+        font-size: 120%;
+        text-align: justify;
+        color: white;
+}
+
+ul {
+        font-family: 'Times New Roman';
+        font-size: 150%;
+        text-align: justify;
+}
+
+.texto {
+        font-family: 'Times New Roman';
+        font-size: 100%;
+        text-align: justify;
+        color: white;
+}
+
+img {
+        float: left;
+        width: 30%;
+}
+
+table {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 100%;
+        color: white;
+        width: 90%;
+        padding: 0.2%;
+        text-align: center;
+        margin: auto;
+}
+
+td,
+tr {
+        border: 3px inset #F27405;
+        padding: 0.5%;
+}
+
+hr {
+        color: #F27405;
+}
+
+.button {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 120%; padding: 0.5%; color: #023E73;
+        font-weight: bold;
+}
+
+.nav-tabs {
+        list-style-type: none;
+        margin: auto;
+        padding: 0.5%;
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        border-width: 3px inset white;
+}
+
+.nav-link {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 90%;
+        font-weight: bold;
+        color: #F2AA6B;
+        padding: 1px;
+}
+
+.row {
+        margin: 2%;
+
+}
+
+
+.clear {
+        clear: both;
+}
+
+.recuadro {
+        background-color: #023E73;
+        border: 3px inset #F2AA6B;
+        margin-left: 10%; margin-right: 10%;
+        padding: 1%;
+        border-radius: 20px;
+        width:85%;
+}
+
+input,
+select,
+textarea {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 130%;
+        padding: 0.1%;
+        color: #023E73;
+}
+
+label, .form-text {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 130%;
+        padding: 0.1%;
+        color: #F2AA6B;
+}
+
+.mb1{margin: 5%;}
+
+#botoncolor {
+        background-color: #023E73;
+        /* Cambia el color de fondo */
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 100;
+        font-weight: bold;
+        color: #F2AA6B;
+        /* Cambia el color del texto */
+        transition: background-color 0.3s;
+        /* Añade una transición */
+        border: 0px;
+        border-radius: 8px;
+        box-shadow: 4px 4px 8px #F27405;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 2%;
+        margin-right: 2%;
+}
+
+
+@media (max-width: 600px) {
+        .social-icon {
+                width: 30px;
+                /* Tamaño de iconos para pantallas pequeñas */
+        }
+}

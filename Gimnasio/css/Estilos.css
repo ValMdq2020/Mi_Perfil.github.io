@@ -1,0 +1,238 @@
+body {
+        background-color: #26190E;
+        margin: 2%;
+        border: 2px solid #BFB19F;
+}
+
+h1 {
+        font-family: "Rubik Gemstones", system-ui;
+        font-style: normal;
+        font-size: 400%;
+        text-align: center;
+        color: #A69581;
+}
+
+h2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 300%;
+        font-weight: bold;
+        text-align: right;
+        text-shadow: 2px 2px 4px #F24162;
+        margin-right: 5%;
+        color: #736355;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+
+.mi-imagen {
+        width: 200rem;
+        /* Ancho deseado */
+        height: 100rem;
+        /* Largo deseado */
+        margin: 5%;
+}
+
+.nav-tabs {
+        list-style-type: none;
+        margin: auto;
+        padding: 0.5%;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        border-width: 3px inset white;
+}
+
+.nav-link {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 150%;
+        color: #F24162;
+}
+
+.row {
+        margin: 2%;
+
+}
+
+.card {
+        background-color: #A69581;
+        height: 50rem;
+        margin: auto;
+        padding: 2%;
+        box-shadow: 0 0 40px #736355;
+}
+
+.cardBox {
+        background-color: #A69581;
+        border-radius: 10px;
+        box-shadow: 0 0 40px #736355;
+        height: 15rem;
+        padding: 2%;
+        margin: auto;
+}
+
+.card-body {
+        margin: 0.5%;
+}
+
+.card-img {
+        width: 100%;
+        height: 18rem;
+        margin: auto;
+}
+
+.precio {
+        font-family: "Lilita One", sans-serif;
+        font-weight: bold;
+        font-size: 200%;
+        font-style: normal;
+        text-align: center;
+}
+
+.card-title {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 250%;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 1px 1px 2px #F24162;
+}
+
+.card-text {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 110%;
+        text-align: justify;
+        font-weight: bold;
+}
+
+.card-horario {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 150%;
+        text-align: center;
+        font-weight: bold;
+}
+
+.horario {
+        background-color: #26190E;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 120%;
+        text-align: center;
+        width: 100%;
+        color: #BFB19F;
+}
+
+.filas {
+        margin: 5%;
+}
+
+form {
+        border: 2px solid #736355;
+        padding: 1%;
+        border-radius: 15px;
+        margin: 0% 5%;
+}
+
+label {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 150%;
+        color: #A69581;
+        padding: 1%;
+}
+
+input {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 130%;
+}
+
+select {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 130%;
+}
+
+textarea {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 130%;
+}
+
+.form-text {
+        margin-left: 50%;
+        color: #A69581;
+}
+
+.envio {
+        margin: 2%;
+        background-color: #A69581;
+        padding: 1%;
+        font-style: italic;
+        letter-spacing: 2px;
+}
+
+footer {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 130%;
+        margin: 2%;
+        color: #A69581;
+}
+
+.carousel-inner {
+        background: 70%;
+}
+
+.d-block {
+        width: 900px;
+        height: 600px;
+        margin: auto;
+}
+
+#botoncolor {
+        background-color: #A69581;
+        /* Cambia el color de fondo */
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 100;
+        font-weight: bold;
+        color: black;
+        /* Cambia el color del texto */
+        transition: background-color 0.3s;
+        /* Añade una transición */
+        border: 0px;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3%;
+        margin-right: 3%;
+}
+
+footer {
+        background-color: #BFB19F;
+        text-align: center;
+        margin: 0%;
+}
+
+.textoFooter {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 90%;
+        color: black;
+        font-weight: bold;
+}
+
+.footer-content {
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        /* Espaciado entre iconos */
+}
+
+.social-icon {
+        width: 5%;
+        /* Ajusta el tamaño de los iconos */
+        height: auto;
+        padding: 0.5% 0.5%;
+}
+
+
+@media (max-width: 600px) {
+        .social-icon {
+                width: 30px;
+                /* Tamaño de iconos para pantallas pequeñas */
+        }
+}

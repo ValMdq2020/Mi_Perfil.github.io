@@ -1,0 +1,160 @@
+/* Estilos generales */
+html{
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #060273;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    width: 10%;
+    filter: drop-shadow(0px 0px 10px #A64F03);
+}
+
+h1{
+        font-family: "Carter One", system-ui;
+        font-weight: bold;
+        font-size: 400%;
+        color: #A64F03;
+        text-shadow: 4px 4px 8px #555; /* Efecto de sombra */
+}
+
+.nav-tabs {
+    list-style-type: none;
+    margin: auto;
+    padding: 0.5%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+   /* border: 3px inset white;*/
+}
+
+.nav-item {
+    margin: auto;
+}
+
+.nav-link {
+    font-family: "Handlee", cursive;
+    font-size: 150%;
+    font-weight: bold;
+    color: #A64F03;
+}    
+
+/* Estilo de la "pizarra" para los ingredientes */
+.pizarra {
+    background-color: #2703A6;   
+    padding: 5%;
+    border-radius: 20px;
+    height: 35rem;
+    box-shadow: 10px 10px 40px #555;
+}
+
+h2 {
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    font-style: normal; font-size: 300%; font-weight: bold;  
+    text-shadow: 2px 2px 4px #555; /* Efecto de sombra */
+    color:#A64F03; text-align: center;
+}
+
+.ingredientes-list {
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    font-style: normal; font-size: 140%; font-weight: bold;  
+    color:#C2E0F2; 
+    padding: 2%; margin-left: 20px;
+}
+
+.pasos{
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal; font-size: 150%; font-weight: bold;  
+    color:#C2E0F2; padding: 5px 0;
+    margin-left: 2%;
+}
+
+.ingredientes-list li {
+    padding: 1% 0;
+}
+
+/* Imagen de los muffins */
+.img-fluid {
+    max-width: 100%;
+    height: 35rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px #555;
+}
+
+/* Estilo de la tabla de información nutricional */
+table {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: #060273;
+    color: white;
+}
+
+td, th {
+    border: 3px inset #A64F03;
+    text-align: center;
+    padding: 1%;
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+}
+
+strong{    
+    font-size: 120%;
+    color: #A64F03;
+    margin: auto;
+    
+}
+
+.recipe-img {
+    width: 20rem; 
+    height: 10rem;
+    border-radius: 8px;
+}
+.descripcion {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+}
+
+.tituloTabla{
+    color: #A64F03;
+    font-size: 150%;
+}
+
+footer {  
+    background-color: #A64F03;  
+    color: #fff;  
+    text-align: center;  
+    padding: 20px 0;  
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+}  
+
+.footer-content {  
+    display: flex;  
+    justify-content: center;  
+    gap: 30px; /* Espaciado entre iconos */  
+}  
+
+.social-icon {  
+    width: 60px; /* Ajusta el tamaño de los iconos */  
+    height: auto;  
+    padding: 10px 10px;
+    color: white;
+}  
+
+@media (max-width: 600px) {  
+    .social-icon {  
+        width: 30px; /* Tamaño de iconos para pantallas pequeñas */  
+    }  
+}  
+
+

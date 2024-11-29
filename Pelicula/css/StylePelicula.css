@@ -1,0 +1,106 @@
+/* General */
+body{ background-color: rgb(246, 252, 226);;
+ margin: 2%;}
+
+/* Headers */
+
+.titulo{ font-family: Arial, Helvetica, sans-serif; font-weight: bolder; 
+    font-size: 600%; color: #8C2370 ; text-align: center;}
+
+.subtitulo{ font-family: Arial, Helvetica, sans-serif; font-weight: bold; 
+    font-size: 300%; color: #8C2370 ; text-align: center;} 
+
+.subtitulo1{ font-family: 'Courier New', Courier, monospace; font-weight: bold; 
+    font-size: 200%; color: #8C2370 ; text-align: center;}     
+
+
+p { font-family: 'Times New Roman', serif; 
+    font-size: 120%; color: #373CA6 ; text-align: justify;} 
+
+.datos { font-family: 'Times New Roman', serif; 
+    font-size: 120%; color: #373CA6 ;}     
+
+.fotos{width: 400px; height: 200px; padding: 10px;}    
+
+.EstiloForm{ border: 4px inset  #8C2370; margin: 5%;}
+
+.nimisubtitulo{ font-family: 'Courier New', Courier, monospace; font-weight: bold; 
+             font-size: 150%; text-align: center; color: #8C2370; margin-top: 2%;}
+        
+.card-text{font-family: 'Courier New', Courier, monospace; text-align: center; font-weight: bold;}             
+
+.btn {  
+    font-family: 'Courier New', Courier, monospace; font-weight: bold;
+    font-size: 18px; /* Cambia el tamaño de fuente */  
+    padding: 15px 30px; /* Cambia el padding */  
+    border-radius: 10px; /* Redondea los bordes */  
+}  
+
+#botoncolor {
+    background-color: #8C2370;
+    /* Cambia el color de fondo */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    font-weight: bold;
+    color: #fff;
+    /* Cambia el color del texto */
+    transition: background-color 0.3s;
+    /* Añade una transición */
+    border: 0px;
+    border-radius: 8px;
+    padding: 0.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.btn-primary:hover {  
+    background-color: #0056b3; /* Color de fondo al hacer hover */  
+    color: #fff; /* Color del texto al hacer hover */  
+}  
+
+.mb1{margin: 5%;}
+
+label{font-family: 'Courier New', Courier, monospace; font-size: 120%; font-weight: bold; color: #373CA6;}
+
+footer {  
+    background-color: #8C2370;  
+    text-align: center;  
+    padding: 0.5% 0;        
+}  
+
+.textoFooter{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    color:#fff;
+    font-weight: bold;
+}
+
+.footer-content {  
+    display: flex;  
+    justify-content: center;  
+    gap: 10%; /* Espaciado entre iconos */  
+}  
+
+.footer-texto {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    font-weight: bold;
+    color: #fff;
+}
+
+.social-icon {  
+    width: 5%; /* Ajusta el tamaño de los iconos */  
+    height: auto;  
+    padding: 0.5% 0.5%;
+}  
+
+
+@media (max-width: 600px) {  
+    .social-icon {  
+        width: 30px; /* Tamaño de iconos para pantallas pequeñas */  
+    }  
+}  
+
